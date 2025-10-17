@@ -99,7 +99,7 @@ export default function App() {
           <div className="flex flex-col gap-3">
             <input
               type="text"
-              placeholder="Enter first name"
+              placeholder="Enter your first name"
               value={firstNames.n1}
               onChange={e =>
                 setFirstNames({ ...firstNames, n1: e.target.value })
@@ -108,10 +108,10 @@ export default function App() {
             />
             <input
               type="text"
-              placeholder="Enter second name"
+              placeholder="Enter his/her first name"
               value={firstNames.n2}
               onChange={e =>
-                setFirstNames({ ...firstNames, n2: e.target.value })
+              e  setFirstNames({ ...firstNames, n2: e.target.value })
               }
               className="p-3 rounded-lg border focus:outline-none focus:ring-2 focus:ring-pink-400"
             />
@@ -126,7 +126,7 @@ export default function App() {
           <div className="flex flex-col gap-3">
             <input
               type="text"
-              placeholder="Enter first full name"
+              placeholder="Enter your full name"
               value={fullNames.n1}
               onChange={e =>
                 setFullNames({ ...fullNames, n1: e.target.value })
@@ -135,7 +135,7 @@ export default function App() {
             />
             <input
               type="text"
-              placeholder="Enter second full name"
+              placeholder="Enter his/her full name"
               value={fullNames.n2}
               onChange={e =>
                 setFullNames({ ...fullNames, n2: e.target.value })
