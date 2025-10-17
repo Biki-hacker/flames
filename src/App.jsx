@@ -111,7 +111,7 @@ export default function App() {
               placeholder="Enter his/her first name"
               value={firstNames.n2}
               onChange={e =>
-              e  setFirstNames({ ...firstNames, n2: e.target.value })
+                setFirstNames({ ...firstNames, n2: e.target.value })
               }
               className="p-3 rounded-lg border focus:outline-none focus:ring-2 focus:ring-pink-400"
             />
